@@ -1,0 +1,23 @@
+.loadMoreBtn {
+  display: block;
+  border: 1px solid var(--blue-btn);
+  border-radius: 12px;
+  padding: 12px 37px;
+  line-height: normal;
+  width: 156px;
+  height: 44px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  color: #101828;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 124px;
+  transition: border-color 0.3s;
+
+  &:hover,
+  &:focus {
+    border-color: var(--active-btn);
+  }
+}

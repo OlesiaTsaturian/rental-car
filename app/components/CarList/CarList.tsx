@@ -1,5 +1,6 @@
 import { Car } from '@/app/lib/api';
 import CarItem from '../CarItem/CarItem';
+import css from './CarList.module.css';
 
 type Props = {
   cars: Car[];
@@ -7,7 +8,7 @@ type Props = {
 
 export default function CarList({ cars }: Props) {
   return (
-    <ul>
+    <ul className={css.listContainer}>
       {cars.map((car) => (
         <CarItem key={car.id} item={car} />
       ))}

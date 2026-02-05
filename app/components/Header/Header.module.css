@@ -1,6 +1,6 @@
 .container {
-  border-bottom: 1px solid var(--bg-white);
-  background: var(--bg-white);
+  border-bottom: 1px solid var(--second-dark-white);
+  background: var(--second-dark-white);
   max-width: 1440px;
   height: 68px;
   display: flex;
