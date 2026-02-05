@@ -1,0 +1,27 @@
+.container {
+  border-bottom: 1px solid var(--bg-white);
+  background: var(--bg-white);
+  max-width: 1440px;
+  height: 68px;
+  display: flex;
+  padding: 26px 120px;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  gap: 32px;
+}
+
+.listItem {
+  color: var(--main-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  transition: color 0.3s;
+
+  &:hover,
+  &:focus {
+    color: var(--active-btn);
+  }
+}

@@ -1,23 +1,24 @@
+import Link from 'next/link';
+import css from './Header.module.css';
+
 export default function Header() {
   return (
-    <nav>
+    <div className={css.container}>
       <div>
-        <div>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
-        </div>
-        <ul>
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Catalog</a>
-          </li>
-        </ul>
+        <Link href="/">
+          <svg width="104" height="26">
+            <use href="/logo.svg"></use>
+          </svg>
+        </Link>
       </div>
-    </nav>
+      <ul className={css.list}>
+        <li className={css.listItem}>
+          <Link href="/">Home</Link>
+        </li>
+        <li className={css.listItem}>
+          <Link href="/catalog">Catalog</Link>
+        </li>
+      </ul>
+    </div>
   );
 }
