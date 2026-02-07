@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import css from './HomePage.module.css';
 
 export default function HomePage() {
@@ -12,9 +13,9 @@ export default function HomePage() {
         <p className={css.mainText}>
           Reliable and budget-friendly rentals for any journey
         </p>
-        <button type="submit" className={css.mainBtn} onClick={handleSubmit}>
+        <Link href="/cars" className={css.mainBtn} onClick={handleSubmit}>
           View Catalog
-        </button>
+        </Link>
       </div>
     </div>
   );

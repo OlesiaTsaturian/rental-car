@@ -16,7 +16,7 @@ export default function Header() {
           <Link href="/">Home</Link>
         </li>
         <li className={css.listItem}>
-          <Link href="/catalog">Catalog</Link>
+          <Link href="/cars">Catalog</Link>
         </li>
       </ul>
     </div>

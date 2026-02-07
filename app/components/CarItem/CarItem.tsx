@@ -1,6 +1,7 @@
 import { Car } from '@/app/lib/api';
 import css from './CarItem.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 type Props = {
   item: Car;
@@ -58,9 +59,10 @@ export default function CarItem({ item }: Props) {
         <span className={css.span}> {item.type} </span>
         <span className={css.span}>{km} km</span>
       </p>
-      <button type="submit" className={css.readMoreBtn}>
+
+      <Link href={`/cars/${item.id}`} className={css.readMoreBtn}>
         Read more
-      </button>
+      </Link>
     </li>
   );
 }

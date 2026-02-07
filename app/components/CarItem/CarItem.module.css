@@ -8,9 +8,11 @@
 }
 
 .imageWrapper {
-  max-width: 276px;
-  max-height: 268px;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 276 / 268;
   border-radius: 14px;
+  overflow: hidden;
 }
 
 .titleContainer {

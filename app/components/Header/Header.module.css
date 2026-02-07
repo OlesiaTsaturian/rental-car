@@ -6,6 +6,9 @@
   display: flex;
   padding: 26px 120px;
   justify-content: space-between;
+  position: sticky;
+
+  z-index: 99990;
 }
 .list {
   display: flex;

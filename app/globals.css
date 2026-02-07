@@ -16,6 +16,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 body {
   background: var(--bg-white);
@@ -54,4 +55,12 @@ button {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 120px;
+
+  @media (max-width: 1024px) {
+    padding: 0 32px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
 }
