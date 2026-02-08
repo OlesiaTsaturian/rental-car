@@ -1,0 +1,85 @@
+.container {
+  display: grid;
+  grid-template-columns: 640px 488px;
+  gap: 72px;
+  /* align-items: start; */
+  margin-top: 84px;
+  margin-bottom: 104px;
+}
+.part {
+  max-width: 640px;
+}
+
+.partInfo {
+  max-width: 488px;
+}
+
+.carInfoPart {
+  margin-bottom: 68px;
+}
+.descImg {
+  border-radius: 19px;
+  height: auto;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+.carInfoHeader {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  color: var(--main-black);
+}
+.carInfoId {
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 16px;
+  line-height: 125%;
+  color: var(--dark-grey);
+}
+.svgAll {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+.textForAll {
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 125%;
+  color: var(--main-black);
+}
+.locationWrap {
+  display: flex;
+  gap: 16px;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+.accent {
+  font-weight: 600;
+  font-size: 24px;
+
+  line-height: 133%;
+  color: var(--blue-btn);
+  padding-bottom: 32px;
+}
+.rentCarDetails:not(:last-child) {
+  padding-bottom: 110px;
+}
+
+.benefitsText {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  color: #101828;
+  padding-bottom: 20px;
+}
+.benefitsDesc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #101828;
+}
+.benefitsDesc:not(:last-child) {
+  padding-bottom: 16px;
+}

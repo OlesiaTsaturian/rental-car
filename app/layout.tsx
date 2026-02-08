@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${manrope.variable}`}>
         <TanStackProvider>
           <Header />
-          <main className="container">{children}</main>
+          <main>{children}</main>
         </TanStackProvider>
       </body>
     </html>

@@ -47,6 +47,7 @@ export default function CatalogClient() {
           {cars.length > 0 && <CarList cars={cars} />}
 
           <button
+            className={css.loadMoreBtn}
             type="button"
             onClick={() => query.fetchNextPage()}
             disabled={!query.hasNextPage || query.isFetchingNextPage}

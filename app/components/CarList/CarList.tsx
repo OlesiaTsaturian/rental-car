@@ -1,4 +1,4 @@
-import { Car } from '@/app/lib/api';
+import { Car } from '@/app/types/car';
 import CarItem from '../CarItem/CarItem';
 import css from './CarList.module.css';
 

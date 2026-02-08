@@ -7,7 +7,7 @@ export default function HomePage() {
   const handleSubmit = () => {};
 
   return (
-    <div className={css.bgImageWrapper}>
+    <section className={css.bgImageWrapper}>
       <div className={css.container}>
         <h1 className={css.mainTitle}>Find your perfect rental car</h1>
         <p className={css.mainText}>
@@ -17,6 +17,6 @@ export default function HomePage() {
           View Catalog
         </Link>
       </div>
-    </div>
+    </section>
   );
 }

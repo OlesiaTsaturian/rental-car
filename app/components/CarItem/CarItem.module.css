@@ -7,13 +7,24 @@
   margin: 0;
 }
 
-.imageWrapper {
+.imageBox {
+  position: relative;
+  width: 276px;
+  height: 268px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+/* .imageWrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 276 / 268;
   border-radius: 14px;
   overflow: hidden;
-}
+} */
 
 .titleContainer {
   display: flex;
